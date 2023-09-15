@@ -1,0 +1,403 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/patienceusip/ontologies/2020/7/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/patienceusip/ontologies/2020/7/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/patienceusip/ontologies/2020/7/untitled-ontology-7"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Affilliation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Area_of_Specialization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bachelors_Degree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Block"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BookChapters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Community_Development"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conferences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Date_of_Birth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Educational_Qualification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Email"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Firstname"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Higher_National_Diploma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Home"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HouseNo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Journals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Masters_Degree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Middlename"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NAPTEB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NCE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NECO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ordinary_National_Diploma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Others"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outside"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Permanent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personal_Profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostalCode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preferred_Title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Present_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prizes_Awards_Prizes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profession"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Researches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Responsibilities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoomNo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salary_Scale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skills"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StreetName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surname"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Textbooks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trade_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WAEC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Within"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Year_of_last_Promotion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doctor_or_Philosophy_(Ph.D)"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#can_be"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includes"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Address"/>
+        <Class IRI="#Contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Affilliation"/>
+        <Class IRI="#Office"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Area_of_Specialization"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bachelors_Degree"/>
+        <Class IRI="#Educational_Qualification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Block"/>
+        <Class IRI="#Office"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BookChapters"/>
+        <Class IRI="#Researches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="#Permanent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Community_Development"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conferences"/>
+        <Class IRI="#Researches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contact"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <Class IRI="#Permanent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Date_of_Birth"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Educational_Qualification"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Email"/>
+        <Class IRI="#Contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Firstname"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gender"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Higher_National_Diploma"/>
+        <Class IRI="#Educational_Qualification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Home"/>
+        <Class IRI="#Phone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HouseNo"/>
+        <Class IRI="#Permanent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Journals"/>
+        <Class IRI="#Researches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Masters_Degree"/>
+        <Class IRI="#Educational_Qualification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Middlename"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile"/>
+        <Class IRI="#Phone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NAPTEB"/>
+        <Class IRI="#Educational_Qualification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NCE"/>
+        <Class IRI="#Educational_Qualification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NECO"/>
+        <Class IRI="#Educational_Qualification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Office"/>
+        <Class IRI="#Address"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ordinary_National_Diploma"/>
+        <Class IRI="#Educational_Qualification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Others"/>
+        <Class IRI="#Phone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outside"/>
+        <Class IRI="#Responsibilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Permanent"/>
+        <Class IRI="#Address"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phone"/>
+        <Class IRI="#Contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostalCode"/>
+        <Class IRI="#Permanent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Preferred_Title"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Present_Status"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prizes_Awards_Prizes"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Profession"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rank"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Researches"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Responsibilities"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoomNo"/>
+        <Class IRI="#Office"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salary_Scale"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skills"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State"/>
+        <Class IRI="#Permanent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StreetName"/>
+        <Class IRI="#Permanent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surname"/>
+        <Class IRI="#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Textbooks"/>
+        <Class IRI="#Researches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trade_Test"/>
+        <Class IRI="#Educational_Qualification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WAEC"/>
+        <Class IRI="#Educational_Qualification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Within"/>
+        <Class IRI="#Responsibilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Year_of_last_Promotion"/>
+        <Class IRI="#Personal_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doctor_or_Philosophy_(Ph.D)"/>
+        <Class IRI="#Educational_Qualification"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
