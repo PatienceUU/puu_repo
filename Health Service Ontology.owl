@@ -1,0 +1,1109 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/patienceusip/ontologies/2021/7/untitled-ontology-23"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/patienceusip/ontologies/2021/7/untitled-ontology-23">
+    <Prefix name="" IRI="http://www.semanticweb.org/patienceusip/ontologies/2021/7/untitled-ontology-23"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Accidents_and_Emergency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ambulance_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anesthesia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antenatal_Care-ANC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antibiotics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Birth_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cardiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cardiothoracic_Surgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Causes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Closed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Community_Health_Extension_Worker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Community_Health_Officer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dental_Technician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dentist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dermatology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dress_code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eating_Habits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Endocrinology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environmental_Health_Officer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facility_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family-Planning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family_Medicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family_Planning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Federal_Government"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#First_Aid_Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPS_Coordinate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gastroenterology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_Surgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geriatrics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gynecology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_Education_and_Community_Mobilization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_Facility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_Post"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_Service_Category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hematology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hepatitis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Blood_Pressure-HBP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human_Resources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immunisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immunization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#In_Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infectious_Diseases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intensive_Care_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Junior_Community_Health_Extension_Worker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laboratory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laboratory_Scientist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laboratory_Technician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Latitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Licenced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#License_Cancelled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#License_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Local_Government"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Local_Government_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Longitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maternal_and_Newborn_care"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Midwife-Double_Qualified"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Midwife-Single_Qualified"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mortuary_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neonatology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nephrology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neuro-Psychiatric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neuro-Surgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neurology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non_Communicable_Diseases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#None_Profit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Not_Licensed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nuclear_Medicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nurse-Double_Qualified"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nurse-Single_Qualified"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nutrition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obstetrics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obstetrics_and_Gynecology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oncology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Onsite_Laboratory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Onsite_Pharmacy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operational"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operational_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ophthalmological_Centre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ophthalmology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oral_and_Maxillo-Facial_Surgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orthopedic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orthopedic_Surgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Out_Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ownership"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pathology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pediatric_Surgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pediatrics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pending_Operation-Construction_Complete"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pending_Operation-Under_Construction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pending_Registration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Periodontics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pharmaceutical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pharmacist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pharmacist_Technician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plasmodium_parasite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plastic_Surgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Postal_Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primary_Health_Care_Centre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primary_Health_Clinic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Private"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provisionally_Registered"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pulmonology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Registered"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Registered_Facility_Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Registration_Cancelled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Registration_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regitration_Suspended"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secondary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#See_Doctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specialied_Hospital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specific_Clinical_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State_Government"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surgical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tertiary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traditional_Remedy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tuberculosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vascular_Surgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Child_Psychiatry/Behavioural_Medicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Closed(Temporary)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Condition/Sickness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ENT/Otorhinolaryngology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fertility/Assisted_Reproductive_Techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HIV/AIDS_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_Attendant/Assistant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_Record/Information_Management_Officer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospital/Clinic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospital/Clinic_Level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Military/Paramilitary_Formations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oncology/Radiotherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Onsite_Imaging/Radio-Diagnostics_Centre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Otorhinolaryngology_(ENT)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychiatry/Behavioural_Medicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiology/Imaging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teaching_Hospital/Federal_Medical_Centres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User/Patient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_caused_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#takes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#visits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#works_in"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_a"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Accidents_and_Emergency"/>
+        <Class IRI="#Specific_Clinical_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ambulance_Services"/>
+        <Class IRI="#Other_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anesthesia"/>
+        <Class IRI="#Surgical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antenatal_Care-ANC"/>
+        <Class IRI="#Specific_Clinical_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antibiotics"/>
+        <Class IRI="#First_Aid_Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacteria"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Birth_Process"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiology"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiothoracic_Surgery"/>
+        <Class IRI="#Surgical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Causes"/>
+        <Class IRI="#Condition/Sickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Closed"/>
+        <Class IRI="#Operational_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Community_Health_Extension_Worker"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Community_Health_Officer"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dental"/>
+        <Class IRI="#Health_Service_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dental_Technician"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dentist"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dermatology"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doctor"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dress_code"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eating_Habits"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Endocrinology"/>
+        <Class IRI="#Pediatrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environmental_Health_Officer"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facility_Type"/>
+        <Class IRI="#Health_Facility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Family-Planning"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Family_Medicine"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Family_Planning"/>
+        <Class IRI="#Specific_Clinical_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Federal_Government"/>
+        <Class IRI="#Public"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#First_Aid_Treatment"/>
+        <Class IRI="#Condition/Sickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPS_Coordinate"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gastroenterology"/>
+        <Class IRI="#Pediatrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_Surgery"/>
+        <Class IRI="#Surgical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geriatrics"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gynecology"/>
+        <Class IRI="#Obstetrics_and_Gynecology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health_Education_and_Community_Mobilization"/>
+        <Class IRI="#Specific_Clinical_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health_Post"/>
+        <Class IRI="#Primary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hematology"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hepatitis"/>
+        <Class IRI="#Specific_Clinical_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Blood_Pressure-HBP"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immunisation"/>
+        <Class IRI="#Prevention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immunization"/>
+        <Class IRI="#Specific_Clinical_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#In_Patient"/>
+        <Class IRI="#Service_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infectious_Diseases"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intensive_Care_Services"/>
+        <Class IRI="#Specific_Clinical_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junior_Community_Health_Extension_Worker"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laboratory"/>
+        <Class IRI="#Facility_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laboratory_Scientist"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laboratory_Technician"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Latitude"/>
+        <Class IRI="#GPS_Coordinate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Licenced"/>
+        <Class IRI="#License_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#License_Cancelled"/>
+        <Class IRI="#License_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#License_Status"/>
+        <Class IRI="#Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Local_Government"/>
+        <Class IRI="#Public"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Local_Government_Area"/>
+        <Class IRI="#Physical_Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#Health_Facility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Longitude"/>
+        <Class IRI="#GPS_Coordinate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maternal_and_Newborn_care"/>
+        <Class IRI="#Obstetrics_and_Gynecology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medical"/>
+        <Class IRI="#Health_Service_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicine"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Midwife-Double_Qualified"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Midwife-Single_Qualified"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mortuary_Services"/>
+        <Class IRI="#Other_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neonatology"/>
+        <Class IRI="#Pediatrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nephrology"/>
+        <Class IRI="#Pediatrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neuro-Psychiatric"/>
+        <Class IRI="#Tertiary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neuro-Surgery"/>
+        <Class IRI="#Surgical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neurology"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non_Communicable_Diseases"/>
+        <Class IRI="#Specific_Clinical_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#None_Profit"/>
+        <Class IRI="#Private"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Not_Licensed"/>
+        <Class IRI="#License_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nuclear_Medicine"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nurse-Double_Qualified"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nurse-Single_Qualified"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nutrition"/>
+        <Class IRI="#Specific_Clinical_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obstetrics"/>
+        <Class IRI="#Obstetrics_and_Gynecology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obstetrics_and_Gynecology"/>
+        <Class IRI="#Health_Service_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oncology"/>
+        <Class IRI="#Pediatrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Onsite_Laboratory"/>
+        <Class IRI="#Other_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Onsite_Pharmacy"/>
+        <Class IRI="#Other_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operational"/>
+        <Class IRI="#Operational_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operational_Status"/>
+        <Class IRI="#Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ophthalmological_Centre"/>
+        <Class IRI="#Tertiary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ophthalmology"/>
+        <Class IRI="#Surgical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oral_and_Maxillo-Facial_Surgery"/>
+        <Class IRI="#Dental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orthopedic"/>
+        <Class IRI="#Tertiary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orthopedic_Surgery"/>
+        <Class IRI="#Surgical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other_Services"/>
+        <Class IRI="#Health_Service_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Out_Patient"/>
+        <Class IRI="#Service_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ownership"/>
+        <Class IRI="#Health_Facility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathology"/>
+        <Class IRI="#Surgical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pediatric_Surgery"/>
+        <Class IRI="#Surgical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pediatrics"/>
+        <Class IRI="#Health_Service_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pending_Operation-Construction_Complete"/>
+        <Class IRI="#Operational_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pending_Operation-Under_Construction"/>
+        <Class IRI="#Operational_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pending_Registration"/>
+        <Class IRI="#Registration_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Periodontics"/>
+        <Class IRI="#Dental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pharmaceutical"/>
+        <Class IRI="#Facility_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pharmacist"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pharmacist_Technician"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Address"/>
+        <Class IRI="#Physical_Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Location"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plasmodium_parasite"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plastic_Surgery"/>
+        <Class IRI="#Surgical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Postal_Address"/>
+        <Class IRI="#Physical_Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prevention"/>
+        <Class IRI="#Condition/Sickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <Class IRI="#Hospital/Clinic_Level"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary_Health_Care_Centre"/>
+        <Class IRI="#Primary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary_Health_Clinic"/>
+        <Class IRI="#Primary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Private"/>
+        <Class IRI="#Ownership"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Profit"/>
+        <Class IRI="#Private"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provisionally_Registered"/>
+        <Class IRI="#Registration_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public"/>
+        <Class IRI="#Ownership"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pulmonology"/>
+        <Class IRI="#Pediatrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiology"/>
+        <Class IRI="#Surgical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Registered"/>
+        <Class IRI="#Registration_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Registered_Facility_Name"/>
+        <Class IRI="#Health_Facility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Registration_Cancelled"/>
+        <Class IRI="#Registration_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Registration_Status"/>
+        <Class IRI="#Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regitration_Suspended"/>
+        <Class IRI="#Registration_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secondary"/>
+        <Class IRI="#Hospital/Clinic_Level"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#See_Doctor"/>
+        <Class IRI="#First_Aid_Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specialied_Hospital"/>
+        <Class IRI="#Tertiary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specific_Clinical_Service"/>
+        <Class IRI="#Health_Service_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State"/>
+        <Class IRI="#Physical_Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State_Government"/>
+        <Class IRI="#Public"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Status"/>
+        <Class IRI="#Health_Facility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surgical"/>
+        <Class IRI="#Health_Service_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Symptoms"/>
+        <Class IRI="#Condition/Sickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tertiary"/>
+        <Class IRI="#Hospital/Clinic_Level"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traditional_Remedy"/>
+        <Class IRI="#First_Aid_Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tuberculosis"/>
+        <Class IRI="#Specific_Clinical_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Urology"/>
+        <Class IRI="#Surgical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vascular_Surgery"/>
+        <Class IRI="#Surgical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ward"/>
+        <Class IRI="#Physical_Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Child_Psychiatry/Behavioural_Medicine"/>
+        <Class IRI="#Pediatrics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Closed(Temporary)"/>
+        <Class IRI="#Operational_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition/Sickness"/>
+        <Class IRI="#Health_Service_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ENT/Otorhinolaryngology"/>
+        <Class IRI="#Tertiary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fertility/Assisted_Reproductive_Techniques"/>
+        <Class IRI="#Obstetrics_and_Gynecology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HIV/AIDS_Services"/>
+        <Class IRI="#Specific_Clinical_Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health_Attendant/Assistant"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health_Record/Information_Management_Officer"/>
+        <Class IRI="#Human_Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospital/Clinic"/>
+        <Class IRI="#Facility_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospital/Clinic_Level"/>
+        <Class IRI="#Health_Facility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Military/Paramilitary_Formations"/>
+        <Class IRI="#Public"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oncology/Radiotherapy"/>
+        <Class IRI="#Surgical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Onsite_Imaging/Radio-Diagnostics_Centre"/>
+        <Class IRI="#Other_Services"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Otorhinolaryngology_(ENT)"/>
+        <Class IRI="#Surgical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psychiatry/Behavioural_Medicine"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiology/Imaging"/>
+        <Class IRI="#Facility_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teaching_Hospital/Federal_Medical_Centres"/>
+        <Class IRI="#Tertiary"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
